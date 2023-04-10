@@ -1,0 +1,24 @@
+{
+  "name": "my-portafolio",
+  "version": "1.0.0",
+  "description": "Mi portafolio de proyectos creado con boostrap y sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Boostrap",
+    "boostrap-v5",
+    "sass"
+  ],
+  "author": "Ulises Nava Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha2"
+  }
+}
