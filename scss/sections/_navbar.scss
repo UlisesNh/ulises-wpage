@@ -1,9 +1,22 @@
 @use '../custom' as *;
-
+@use '../components/mixins' as *;
 
 .menu {
-    background: linear-gradient(to right, rgba($primary, 0.85), rgba($secondary, 0.85));
-    li{
-    padding: 0, 0.90rem;
+    @include gradient;
+
+    li {
+        padding: 0, 0.90rem;
+
+        a{
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
     }
+
+}
+
+
+.navbar-brand img {
+    width: 50px;
 }
