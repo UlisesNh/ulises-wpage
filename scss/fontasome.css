@@ -2173,7 +2173,6 @@
   margin-left: var(--fa-li-margin, 2.5em);
   padding-left: 0;
 }
-
 .fa-ul > li {
   position: relative;
 }
@@ -2447,43 +2446,43 @@
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
 .fa-0::before {
-  content: "0";
+  content: "\30 ";
 }
 
 .fa-1::before {
-  content: "1";
+  content: "\31 ";
 }
 
 .fa-2::before {
-  content: "2";
+  content: "\32 ";
 }
 
 .fa-3::before {
-  content: "3";
+  content: "\33 ";
 }
 
 .fa-4::before {
-  content: "4";
+  content: "\34 ";
 }
 
 .fa-5::before {
-  content: "5";
+  content: "\35 ";
 }
 
 .fa-6::before {
-  content: "6";
+  content: "\36 ";
 }
 
 .fa-7::before {
-  content: "7";
+  content: "\37 ";
 }
 
 .fa-8::before {
-  content: "8";
+  content: "\38 ";
 }
 
 .fa-9::before {
-  content: "9";
+  content: "\39 ";
 }
 
 .fa-fill-drip::before {
@@ -2503,7 +2502,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-at::before {
-  content: "@";
+  content: "\@";
 }
 
 .fa-trash-can::before {
@@ -3411,7 +3410,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-asterisk::before {
-  content: "*";
+  content: "\*";
 }
 
 .fa-square-check::before {
@@ -5619,7 +5618,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-question::before {
-  content: "?";
+  content: "\?";
 }
 
 .fa-file-signature::before {
@@ -7955,7 +7954,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-less-than::before {
-  content: "<";
+  content: "\<";
 }
 
 .fa-angle-down::before {
@@ -8167,7 +8166,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-greater-than::before {
-  content: ">";
+  content: "\>";
 }
 
 .fa-person-swimming::before {
@@ -8711,11 +8710,11 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-plus::before {
-  content: "+";
+  content: "\+";
 }
 
 .fa-add::before {
-  content: "+";
+  content: "\+";
 }
 
 .fa-expand::before {
@@ -8815,7 +8814,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-equals::before {
-  content: "=";
+  content: "\=";
 }
 
 .fa-blender::before {
@@ -9011,11 +9010,11 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-percent::before {
-  content: "%";
+  content: "\%";
 }
 
 .fa-percentage::before {
-  content: "%";
+  content: "\%";
 }
 
 .fa-truck-moving::before {
@@ -9339,7 +9338,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-hashtag::before {
-  content: "#";
+  content: "\#";
 }
 
 .fa-up-right-and-down-left-from-center::before {
@@ -10075,7 +10074,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-exclamation::before {
-  content: "!";
+  content: "\!";
 }
 
 .fa-arrows-spin::before {
@@ -10099,15 +10098,15 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-dollar-sign::before {
-  content: "$";
+  content: "\$";
 }
 
 .fa-dollar::before {
-  content: "$";
+  content: "\$";
 }
 
 .fa-usd::before {
-  content: "$";
+  content: "\$";
 }
 
 .fa-x::before {
@@ -10296,6 +10295,4 @@ readers do not read off random characters that represent icons */
 .fas,
 .fa-solid {
   font-weight: 900;
-} 
-
-/*# sourceMappingURL=fontasome.css.map */
+}/*# sourceMappingURL=fontasome.css.map */
