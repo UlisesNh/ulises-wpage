@@ -12038,31 +12038,33 @@ textarea.form-control-lg {
   margin-top: -90px;
 }
 
+/* Media Query para pantallas pequeñas */
 @media (max-width: 767px) {
-  .container {
+  /* Estilos adicionales para pantallas pequeñas, si los necesitas */
+  /* Estilos para la cuadrícula de habilidades en pantallas pequeñas */
+  .pex {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 1rem; /* Espacio entre las imágenes */
     max-width: 100%;
   }
-  .row {
+  .dow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
   }
-  .col-md-4,
-  .col-lg-2 {
-    flex-basis: calc(33.33% - 1rem);
-    max-width: calc(33.33% - 1rem);
+  .lol {
+    flex-basis: calc(33.33% - 1rem); /* Esto divide el espacio en 3 columnas con un espacio entre ellas */
+    max-width: calc(33.33% - 1rem); /* Esto establece el ancho máximo de cada imagen */
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Espacio entre las imágenes verticalmente */
     padding: 0.5rem;
     text-align: center;
     position: relative;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
-  .col-md-4 img,
-  .col-lg-2 img {
+  .lol img,
+  .lol img {
     max-width: 100%;
     height: auto;
   }
