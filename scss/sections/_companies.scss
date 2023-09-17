@@ -1,35 +1,34 @@
-.skills 
-{
-    padding:  0 0 5rem 0;
-    
-    &__logo-box 
-    {
-        max-width: 100%;
-        height: 7.5rem;
-        margin-bottom: 0.2rem;
-        padding: 0.5rem;
-        text-align: center;
-        position: relative;
+.skills {
+  padding: 0 0 5rem 0;
 
-        img {
-            height: 100%;
-            &:hover {
-                filter: grayscale(120);}
-            }
+  &__logo-box {
+    max-width: 100%;
+    height: 7.5rem;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+
+    img {
+      height: 100%;
+
+      &:hover {
+        filter: grayscale(120);
+      }
     }
+  }
 }
-.B{
-    margin-top: -90px;
+
+.B {
+  margin-top: -90px;
 }
   
 
-/* Media Query para pantallas pequeñas */
+
 @media (max-width: 767px) {
-  /* Estilos adicionales para pantallas pequeñas, si los necesitas */
-  /* Estilos para la cuadrícula de habilidades en pantallas pequeñas */
   .pex {
     display: grid;
-    grid-gap: 1rem; /* Espacio entre las imágenes */
+    grid-gap: 1rem;
     max-width: 100%;
   }
 
@@ -41,16 +40,15 @@
   }
 
   .lol {
-    flex-basis: calc(33.33% - 1rem); /* Esto divide el espacio en 3 columnas con un espacio entre ellas */
-    max-width: calc(33.33% - 1rem); /* Esto establece el ancho máximo de cada imagen */
+    flex-basis: calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
     height: auto;
-    margin-bottom: 1rem; /* Espacio entre las imágenes verticalmente */
+    margin-bottom: 1rem;
     padding: 0.5rem;
     text-align: center;
     position: relative;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
-
   .lol img,
   .lol img {
     max-width: 100%;
